@@ -1,0 +1,22 @@
+﻿@model StudentViewModel
+
+<h1>Add Student</h1>
+<hr/>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Phone">Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Address">Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Add" class="btn-primary" />
+    </div>
+</form>
